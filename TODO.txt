@@ -1,0 +1,15 @@
+
+
+- set up docker compose to run it and tests
+- write instuctions how to run it
+- write a description about assumtions made - image file will be png with a white background
+- Sort out data with colours, it was defaulted to red, but it should be white
+- should I limit the color to hex values?
+- frontend , change it so you
+    - choose item
+    - choose color
+    - get image returned
+- tests
+    - backend - change color test
+    - frontend
+- clean up commented code
