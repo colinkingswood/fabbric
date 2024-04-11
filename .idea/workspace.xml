@@ -4,25 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9630f938-c9c8-4e51-a3a9-ce74c51a8aba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fabbric.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/12-Reg - Hood- classic sleeves-Kangaroo pockets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Oversize_Crewneck_ShortSleeves_NoPocket_NoVent_Hips_TShirt_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Regular_5cm_TankTop_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype/images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_scripts/test_pillow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_scripts/test_pillow2.py" afterDir="false" />
+    <list default="true" id="9630f938-c9c8-4e51-a3a9-ce74c51a8aba" name="Changes" comment="Ok, basicas working, needs tidied up.">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/prototype/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +22,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2erLGqPfxP97dbxorKD8VWTqRXr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,14 +34,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.manage.executor": "Debug",
-    "Python.runserver.executor": "Debug",
-    "Python.test.executor": "Debug",
+    "Python.runserver.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.test_illow.executor": "Run",
     "Python.test_pillow2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/colin/PycharmProjects/fabbric/manage.py"
+  },
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -180,27 +171,19 @@
       <option name="presentableId" value="Default" />
       <updated>1712657657239</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ok, basicas working, needs tidied up.">
+      <option name="closed" value="true" />
+      <created>1712771803827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712771803828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/prototype/tests.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/prototype/images.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ok, basicas working, needs tidied up." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ok, basicas working, needs tidied up." />
   </component>
 </project>

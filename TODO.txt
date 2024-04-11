@@ -13,3 +13,4 @@
     - backend - change color test
     - frontend
 - clean up commented code
+- add requirementsdocker ps
