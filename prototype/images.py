@@ -2,6 +2,14 @@ from PIL import Image, ImageColor
 
 
 def change_color(image_path, hexcolor):
+    """
+    This will take an image, we are assuming a white / greyscale transparent png
+    and apply the hexcolor to it
+
+    :param image_path:
+    :param hexcolor:
+    :return: A pillow Image with teh color adjusted
+    """
     color = ImageColor.getcolor(hexcolor, "RGB")
     # Load the image
     image = Image.open(image_path)
@@ -24,9 +32,3 @@ def change_color(image_path, hexcolor):
 
     return colored_image
 
-
-# # Usage
-# image_path = '../data/Regular_5cm_TankTop_0.png'
-# color = (0, 0, 255)  # Blue color
-# colored_image = change_color(image_path, color)
-# colored_image.show()

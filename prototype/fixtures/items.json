@@ -1,0 +1,32 @@
+[
+{
+  "model": "prototype.clothingitem",
+  "pk": 1,
+  "fields": {
+    "name": "Item1",
+    "image": "clothing/12-Reg_-_Hood-_classic_sleeves-Kangaroo_pockets.png",
+    "color": "white",
+    "description": "Hoodie, extra confortable"
+  }
+},
+{
+  "model": "prototype.clothingitem",
+  "pk": 2,
+  "fields": {
+    "name": "Item2",
+    "image": "clothing/Oversize_Crewneck_ShortSleeves_NoPocket_NoVent_Hips_TShirt_0.png",
+    "color": "white",
+    "description": "Cotton T-shirs, very comfortable"
+  }
+},
+{
+  "model": "prototype.clothingitem",
+  "pk": 3,
+  "fields": {
+    "name": "Item3",
+    "image": "clothing/Regular_5cm_TankTop_0.png",
+    "color": "white",
+    "description": "Tank top, made of cotton"
+  }
+}
+]
