@@ -35,7 +35,7 @@ I ended up asking for some example data, which was white / greyscale png format,
 I looked into converting the color on the frontend, but it looked more complicated than doing it in Python and pillow, and I am more comfortable with backend code in general. Doing it in the backend would also allow for saving customized versions, given more time, though there is a small delay.
 
 ### backend
-I did this in Django, with Django Rest Framework and uses SQLite as teh database for simplicity.
+I did this in Django, with Django Rest Framework and uses SQLite as the database for simplicity.
 
 The code is in `prototype` directory.  
 
